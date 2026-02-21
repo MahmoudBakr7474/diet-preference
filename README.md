@@ -9,6 +9,8 @@
 
 **A diet preference form app that saves user data to a Neon PostgreSQL database.**
 
+[🔗 **Live Demo**](https://alfredang--diet-preference-web.modal.run/)
+
 </div>
 
 ---
@@ -39,8 +41,9 @@
 
 | Technology | Purpose |
 |-----------|---------|
-| Node.js + Express | Backend API server |
+| Python + FastAPI | Backend API server |
 | PostgreSQL (Neon) | Cloud database |
+| Modal | Serverless deployment |
 | Vanilla JavaScript | Frontend logic |
 | HTML5 + CSS3 | Dark theme UI |
 
